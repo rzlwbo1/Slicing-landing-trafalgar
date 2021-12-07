@@ -34,3 +34,33 @@ body {
   width: 58%;
   justify-content: space-around;
 }
+
+
+.section-hero {
+  margin-top: 85px;
+}
+
+
+.hero {
+  .title-text {
+    font-size: 48px;
+    color: $text-color;
+    margin-bottom: 25px;
+  }
+
+  .sub-title {
+    color: $tex-abu;
+    font-size: 21px;
+    margin-bottom: 45px;
+  }
+
+  .cta {
+    border-radius: 55px;
+    background-color: $brand-color;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 40px !important;
+    color: #fff;
+  }
+}

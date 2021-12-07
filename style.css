@@ -27,3 +27,29 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+
+.section-hero {
+  margin-top: 85px;
+}
+
+.hero .title-text {
+  font-size: 48px;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.hero .sub-title {
+  color: #7D7987;
+  font-size: 21px;
+  margin-bottom: 45px;
+}
+
+.hero .cta {
+  border-radius: 55px;
+  background-color: #458FF6;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 40px !important;
+  color: #fff;
+}
