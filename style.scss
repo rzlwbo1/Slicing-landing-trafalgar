@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+
+$brand-color: #458FF6;
+$text-color : #000;
+$tex-abu: #7D7987;
+
+$font-primary: 'Mulish', sans-serif;
+
+body {
+  font-family: $font-primary;
+  background-color: #fff;
+}
+
+.navbar-light .brand {
+  color: #233348;
+  font-size: 24px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.nav-link.active {
+  color: $text-color;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: $text-color !important;
+}
+
+.navbar-nav {
+  width: 58%;
+  justify-content: space-around;
+}
