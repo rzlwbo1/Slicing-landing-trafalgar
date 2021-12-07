@@ -30,6 +30,17 @@ body {
 
 .section-hero {
   margin-top: 85px;
+  position: relative;
+}
+
+.section-hero::before {
+  content: '';
+  position: absolute;
+  background-image: url(assets/element.svg);
+  width: 132px;
+  height: 115px;
+  top: -20%;
+  left: -4%;
 }
 
 .hero .title-text {
