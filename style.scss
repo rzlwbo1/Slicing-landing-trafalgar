@@ -44,10 +44,12 @@ body {
     content: '';
     position: absolute;
     background-image: url(assets/element.svg);
-    width: 132px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 114px;
     height: 115px;
     top: -20%;
-    left: -4%;
+    left: 0;
   }
 }
 
@@ -57,6 +59,7 @@ body {
     font-size: 48px;
     color: $text-color;
     margin-bottom: 25px;
+    font-weight: 800;
   }
 
   .sub-title {
@@ -73,5 +76,28 @@ body {
     cursor: pointer;
     padding: 10px 40px !important;
     color: #fff;
+  }
+}
+
+
+
+.services {
+  margin-top: 180px;
+
+  .title-our {
+    color: $text-color;
+    font-weight: 700;
+    font-size: 36px;
+  }
+
+  .sub-our {
+    color: $tex-abu;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  // select all class yg memiliki nilai col, karna bs kan col-whatever, nah biar gampang select kata col nya aja
+  [class*="col"] {
+    padding: 5px 50px;
   }
 }

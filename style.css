@@ -37,16 +37,19 @@ body {
   content: '';
   position: absolute;
   background-image: url(assets/element.svg);
-  width: 132px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 114px;
   height: 115px;
   top: -20%;
-  left: -4%;
+  left: 0;
 }
 
 .hero .title-text {
   font-size: 48px;
   color: #000;
   margin-bottom: 25px;
+  font-weight: 800;
 }
 
 .hero .sub-title {
@@ -63,4 +66,24 @@ body {
   cursor: pointer;
   padding: 10px 40px !important;
   color: #fff;
+}
+
+.services {
+  margin-top: 180px;
+}
+
+.services .title-our {
+  color: #000;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.services .sub-our {
+  color: #7D7987;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.services [class*="col"] {
+  padding: 5px 50px;
 }
