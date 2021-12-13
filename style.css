@@ -87,3 +87,22 @@ body {
 .services [class*="col"] {
   padding: 5px 50px;
 }
+
+.services .service {
+  -webkit-box-shadow: 10px 40px 50px 0px #E5E9F666;
+          box-shadow: 10px 40px 50px 0px #E5E9F666;
+  border-radius: 20px;
+  padding: 54px 45px 45px 39px;
+  width: 350px;
+}
+
+.services .service-title {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.services .desc-service {
+  color: #7D7987;
+  font-weight: 400;
+}

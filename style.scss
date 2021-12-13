@@ -100,4 +100,23 @@ body {
   [class*="col"] {
     padding: 5px 50px;
   }
+
+  .service {
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    border-radius: 20px;
+    padding: 54px 45px 45px 39px;
+    width: 350px;
+  }
+
+
+  .service-title {
+    color: $text-color;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .desc-service {
+    color: $tex-abu;
+    font-weight: 400;
+  }
 }
