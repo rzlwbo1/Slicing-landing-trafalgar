@@ -119,4 +119,12 @@ body {
     color: $tex-abu;
     font-weight: 400;
   }
+
+  .btn-second {
+    padding: 10px 51px;
+    border-radius: 55px;
+    border: 2px solid $brand-color;
+    font-weight: 700;
+    color: $brand-color;
+  }
 }
