@@ -82,6 +82,7 @@ body {
 
 
 .services {
+  position: relative;
   margin-top: 180px;
 
   .title-our {
@@ -106,6 +107,7 @@ body {
     border-radius: 20px;
     padding: 54px 45px 45px 39px;
     width: 350px;
+    background-color: #fff;
   }
 
 
@@ -126,5 +128,11 @@ body {
     border: 2px solid $brand-color;
     font-weight: 700;
     color: $brand-color;
+  }
+
+
+  .blob {
+    position: absolute;
+    z-index: -1;
   }
 }

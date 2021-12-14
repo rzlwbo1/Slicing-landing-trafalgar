@@ -69,6 +69,7 @@ body {
 }
 
 .services {
+  position: relative;
   margin-top: 180px;
 }
 
@@ -94,6 +95,7 @@ body {
   border-radius: 20px;
   padding: 54px 45px 45px 39px;
   width: 350px;
+  background-color: #fff;
 }
 
 .services .service-title {
@@ -113,4 +115,9 @@ body {
   border: 2px solid #458FF6;
   font-weight: 700;
   color: #458FF6;
+}
+
+.services .blob {
+  position: absolute;
+  z-index: -1;
 }
