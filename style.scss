@@ -12,6 +12,26 @@ body {
   background-color: #fff;
 }
 
+.divider {
+  width: 85px;
+  height: 3px;
+  background-color: $text-color;
+}
+
+.btn-second {
+  padding: 10px 51px;
+  border-radius: 55px;
+  border: 2px solid $brand-color;
+  font-weight: 700;
+  color: $brand-color;
+
+  &:hover {
+    background-color: $brand-color;
+    color: #fff;
+    transition: .3s;
+  }
+}
+
 .navbar-light .brand {
   color: #233348;
   font-size: 24px;
@@ -122,17 +142,26 @@ body {
     font-weight: 400;
   }
 
-  .btn-second {
-    padding: 10px 51px;
-    border-radius: 55px;
-    border: 2px solid $brand-color;
-    font-weight: 700;
-    color: $brand-color;
-  }
-
 
   .blob {
     position: absolute;
     z-index: -1;
+  }
+}
+
+.section-one {
+  margin-top: 200px;
+
+  .title {
+    font-size: 36px;
+  }
+
+  .desc {
+    font-size: 18px;
+    color: $tex-abu;
+  }
+
+  .divider {
+    margin: 20px 0;
   }
 }

@@ -4,6 +4,27 @@ body {
   background-color: #fff;
 }
 
+.divider {
+  width: 85px;
+  height: 3px;
+  background-color: #000;
+}
+
+.btn-second {
+  padding: 10px 51px;
+  border-radius: 55px;
+  border: 2px solid #458FF6;
+  font-weight: 700;
+  color: #458FF6;
+}
+
+.btn-second:hover {
+  background-color: #458FF6;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
 .navbar-light .brand {
   color: #233348;
   font-size: 24px;
@@ -109,15 +130,15 @@ body {
   font-weight: 400;
 }
 
-.services .btn-second {
-  padding: 10px 51px;
-  border-radius: 55px;
-  border: 2px solid #458FF6;
-  font-weight: 700;
-  color: #458FF6;
-}
-
 .services .blob {
   position: absolute;
   z-index: -1;
+}
+
+.section-one {
+  margin-top: 200px;
+}
+
+.section-one .divider {
+  margin: 20px 0;
 }
