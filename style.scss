@@ -32,6 +32,26 @@ body {
   }
 }
 
+.btn-download {
+  padding: 10px 51px;
+  border-radius: 55px;
+  border: 2px solid $brand-color;
+  font-weight: 700;
+  color: $brand-color;
+
+  &:hover {
+    background-color: $brand-color;
+    color: #fff;
+    transition: .3s;
+  }
+
+  &:hover img {
+    filter: grayscale(100%) brightness(200%);
+  }
+
+  
+}
+
 .navbar-light .brand {
   color: #233348;
   font-size: 24px;
@@ -160,6 +180,15 @@ body {
     font-size: 18px;
     color: $tex-abu;
   }
+
+  .divider {
+    margin: 20px 0;
+  }
+}
+
+
+.section-two {
+  margin-top: 200px;
 
   .divider {
     margin: 20px 0;

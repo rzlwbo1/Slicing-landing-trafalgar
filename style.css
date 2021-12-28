@@ -25,6 +25,26 @@ body {
   transition: .3s;
 }
 
+.btn-download {
+  padding: 10px 51px;
+  border-radius: 55px;
+  border: 2px solid #458FF6;
+  font-weight: 700;
+  color: #458FF6;
+}
+
+.btn-download:hover {
+  background-color: #458FF6;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn-download:hover img {
+  -webkit-filter: grayscale(100%) brightness(200%);
+          filter: grayscale(100%) brightness(200%);
+}
+
 .navbar-light .brand {
   color: #233348;
   font-size: 24px;
@@ -139,6 +159,23 @@ body {
   margin-top: 200px;
 }
 
+.section-one .title {
+  font-size: 36px;
+}
+
+.section-one .desc {
+  font-size: 18px;
+  color: #7D7987;
+}
+
 .section-one .divider {
+  margin: 20px 0;
+}
+
+.section-two {
+  margin-top: 200px;
+}
+
+.section-two .divider {
   margin: 20px 0;
 }
