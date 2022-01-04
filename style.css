@@ -13,31 +13,31 @@ body {
 .btn-second {
   padding: 10px 51px;
   border-radius: 55px;
-  border: 2px solid #458FF6;
+  border: 2px solid #458ff6;
   font-weight: 700;
-  color: #458FF6;
+  color: #458ff6;
 }
 
 .btn-second:hover {
-  background-color: #458FF6;
+  background-color: #458ff6;
   color: #fff;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .btn-download {
   padding: 10px 51px;
   border-radius: 55px;
-  border: 2px solid #458FF6;
+  border: 2px solid #458ff6;
   font-weight: 700;
-  color: #458FF6;
+  color: #458ff6;
 }
 
 .btn-download:hover {
-  background-color: #458FF6;
+  background-color: #458ff6;
   color: #fff;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .btn-download:hover img {
@@ -75,7 +75,7 @@ body {
 }
 
 .section-hero::before {
-  content: '';
+  content: "";
   position: absolute;
   background-image: url(assets/element.svg);
   background-repeat: no-repeat;
@@ -94,14 +94,14 @@ body {
 }
 
 .hero .sub-title {
-  color: #7D7987;
+  color: #7d7987;
   font-size: 21px;
   margin-bottom: 45px;
 }
 
 .hero .cta {
   border-radius: 55px;
-  background-color: #458FF6;
+  background-color: #458ff6;
   font-size: 18px;
   text-align: center;
   cursor: pointer;
@@ -121,7 +121,7 @@ body {
 }
 
 .services .sub-our {
-  color: #7D7987;
+  color: #7d7987;
   font-size: 18px;
   font-weight: 300;
 }
@@ -131,8 +131,8 @@ body {
 }
 
 .services .service {
-  -webkit-box-shadow: 10px 40px 50px 0px #E5E9F666;
-          box-shadow: 10px 40px 50px 0px #E5E9F666;
+  -webkit-box-shadow: 10px 40px 50px 0px #e5e9f666;
+          box-shadow: 10px 40px 50px 0px #e5e9f666;
   border-radius: 20px;
   padding: 54px 45px 45px 39px;
   width: 350px;
@@ -146,7 +146,7 @@ body {
 }
 
 .services .desc-service {
-  color: #7D7987;
+  color: #7d7987;
   font-weight: 400;
 }
 
@@ -165,7 +165,7 @@ body {
 
 .section-one .desc {
   font-size: 18px;
-  color: #7D7987;
+  color: #7d7987;
 }
 
 .section-one .divider {
@@ -178,4 +178,10 @@ body {
 
 .section-two .divider {
   margin: 20px 0;
+}
+
+.testimonials .owl-custom {
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  padding: 64px;
 }
