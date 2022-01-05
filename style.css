@@ -185,3 +185,7 @@ body {
   border-radius: 24px;
   padding: 64px;
 }
+
+.testimonials .owl-custom .testi-profile img {
+  width: 141px;
+}
