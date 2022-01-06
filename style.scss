@@ -210,6 +210,8 @@ body {
 // section-articles
 
 .section-articles {
+  overflow: hidden;
+  position: relative;
   margin-top: 200px;
 
   .articles {
@@ -230,4 +232,17 @@ body {
       padding:24px 33px;
     }
   }
+
+
+  .blob {
+    position: absolute;
+    z-index: -2;
+    top: -15%;
+    right: -110px;
+    img {
+      transform: rotate(180deg);
+      width: 778px;
+    }
+  }
+
 }

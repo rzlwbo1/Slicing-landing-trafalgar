@@ -199,6 +199,8 @@ body {
 }
 
 .section-articles {
+  overflow: hidden;
+  position: relative;
   margin-top: 200px;
 }
 
@@ -222,4 +224,17 @@ body {
 
 .section-articles .article-card .card-body {
   padding: 24px 33px;
+}
+
+.section-articles .blob {
+  position: absolute;
+  z-index: -2;
+  top: -15%;
+  right: -110px;
+}
+
+.section-articles .blob img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 778px;
 }
