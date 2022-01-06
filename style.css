@@ -180,12 +180,46 @@ body {
   margin: 20px 0;
 }
 
+.testimonials {
+  margin-top: 200px;
+}
+
 .testimonials .owl-custom {
   background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
   border-radius: 24px;
   padding: 64px;
 }
 
+.testimonials .owl-custom h4 {
+  font-size: 36px;
+}
+
 .testimonials .owl-custom .testi-profile img {
   width: 141px;
+}
+
+.section-articles {
+  margin-top: 200px;
+}
+
+.section-articles .articles {
+  margin-top: 75px;
+}
+
+.section-articles h2 {
+  font-size: 36px;
+}
+
+.section-articles .article-card {
+  -webkit-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+          box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.section-articles .article-card a {
+  color: #458ff6 !important;
+  font-weight: 700;
+}
+
+.section-articles .article-card .card-body {
+  padding: 24px 33px;
 }
