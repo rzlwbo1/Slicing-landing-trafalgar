@@ -238,3 +238,19 @@ body {
           transform: rotate(180deg);
   width: 778px;
 }
+
+.footer {
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.footer .col h5 {
+  font-weight: 700;
+}
+
+.footer .col li a {
+  font-weight: 300 !important;
+}
+
+.footer .col li a:hover {
+  color: #ffffff85 !important;
+}
