@@ -273,4 +273,11 @@ body {
   .services .blob img {
     max-width: 100%;
   }
+  .testimonials .owl-custom {
+    padding: 34px;
+  }
+  .testimonials .testimonial {
+    width: 500px !important;
+    text-align: center;
+  }
 }
