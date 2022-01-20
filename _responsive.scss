@@ -1,0 +1,29 @@
+@media screen and (max-width: 991.98px) {
+  // Servvice
+  .services [class*="col"] {
+    padding: 5px 25px;
+  }
+
+  .services {
+    .service {
+      padding: 34px 25px 25px 29px;
+      width: 200px;
+
+      .icon img {
+        width: 45%;
+      }
+    }
+
+    .blob {
+      top: 107px;
+      width: 80%;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+
+
+
+}
