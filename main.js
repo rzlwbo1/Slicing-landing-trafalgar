@@ -10,6 +10,7 @@ $(document).ready(function () {
       0: {
         loop: false,
         autoplay: false,
+        rewind: true
       },
       
       900: {

@@ -241,6 +241,7 @@ body {
 
 .footer {
   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  margin-top: 130px;
 }
 
 .footer .col h5 {
@@ -280,6 +281,9 @@ body {
     padding: 34px;
   }
   .testimonials .owl-custom h4 {
+    font-size: 30px;
+  }
+  .section-articles h2 {
     font-size: 30px;
   }
 }
