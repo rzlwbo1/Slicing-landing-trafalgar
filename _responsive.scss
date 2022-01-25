@@ -1,4 +1,8 @@
 @media screen and (max-width: 991.98px) {
+  .section-one .title {
+    font-size: 30px;
+  }
+
   // Servvice
   .services [class*="col"] {
     padding: 5px 25px;
@@ -24,19 +28,15 @@
     }
   }
 
-
   // Carousel
   .testimonials {
+
     .owl-custom {
       padding: 34px;
-    }
 
-    .testimonial {
-      width: 500px !important;
-      text-align: center;
+      h4 {
+        font-size: 30px;
+      }
     }
   }
-
-
-
 }
