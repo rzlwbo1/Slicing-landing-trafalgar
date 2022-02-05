@@ -289,6 +289,9 @@ body {
 }
 
 @media screen and (max-width: 575.98px) {
+  body {
+    overflow-x: hidden;
+  }
   .services .service {
     padding: 34px 25px 25px 29px;
     width: 100%;
@@ -300,5 +303,11 @@ body {
   .services .service .icon img {
     max-width: 100%;
     width: initial;
+  }
+  .section-one,
+  .section-two,
+  .testimonials,
+  .section-articles {
+    margin-top: 100px;
   }
 }

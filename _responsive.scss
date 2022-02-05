@@ -47,6 +47,9 @@
 }
 
 @media screen and (max-width: 575.98px) {
+  body {
+    overflow-x: hidden;
+  }
   .services {
     .service {
       padding: 34px 25px 25px 29px;
@@ -61,5 +64,13 @@
         }
       }
     }
+  }
+
+
+  .section-one,
+  .section-two,
+  .testimonials,
+  .section-articles {
+    margin-top: 100px;
   }
 }
