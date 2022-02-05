@@ -30,7 +30,6 @@
 
   // Carousel
   .testimonials {
-
     .owl-custom {
       padding: 34px;
 
@@ -45,5 +44,22 @@
       font-size: 30px;
     }
   }
+}
 
+@media screen and (max-width: 575.98px) {
+  .services {
+    .service {
+      padding: 34px 25px 25px 29px;
+      width: 100%;
+      text-align: center;
+
+      .icon {
+        text-align: center;
+        img {
+          max-width: 100%;
+          width: initial;
+        }
+      }
+    }
+  }
 }
